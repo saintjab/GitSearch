@@ -81,6 +81,6 @@ class GitSearchTests: XCTestCase {
         
         // then
         XCTAssertNil(responseError)
-        XCTAssertEqual(statusCode, 200)
+        XCTAssertEqual(statusCode, 404)
     }
 }
